@@ -1,0 +1,96 @@
+body {
+  max-width: 1080px;
+  margin: auto;
+}
+
+li {
+  list-style-type: none;
+}
+li div {
+      display: inline-block;
+      margin-inline-start: 10px;
+      margin-inline-end: 10px;
+      font-size: 0.75em;
+    }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 300px;
+      height: 400px;
+      margin: 10px;
+      text-align: center;
+      font-family: arial;
+      font-size: 0.75em;
+      padding: auto;
+    }
+    
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    .card button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+    
+    .card button:hover {
+      opacity: 0.7;
+    }
+    
+    .image{
+      max-height: 100px;
+      max-width: 100px;
+      margin: auto;
+    }
+    
+    div .increase, div .decrease {
+      outline: 1px solid black;
+      width: 15px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    div .remove {
+      cursor: pointer;
+    }
+    
+    .payment-amount{
+      font-weight: bold;
+    }
+    
+    #total-sum {
+      font-weight: 400;
+    }
+    
+    nav {
+      color: white;
+    }
+    
+    .cart-control{
+      float: right;
+    }
+
+    #cart-items-table{
+      border: 1px solid;
+    }
+    .table-row {
+      border:1px solid;
+    }
+    .table-header{
+      border-color: black;
+      border:1px solid;
+      color:white;
+      background-color:black;
+    }
+    #cart-items-table{
+      margin: 10px;
+    }
+
+    
