@@ -150,7 +150,6 @@ $(function(){
     }
     
     function renderProduct(product){
-        //const productplats = document.getElementById("produkter");
         
         let title = product.title;
         let description = product.description;
@@ -172,7 +171,7 @@ $(function(){
             </div>`;
             
             $("#produkter").append(productData);
-        }
+    }
         
     function getProduct(ID){
         let productList = JSON.parse(localStorage.getItem("products"));
